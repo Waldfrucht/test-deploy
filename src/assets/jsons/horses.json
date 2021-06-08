@@ -1,0 +1,162 @@
+[
+  {
+    "id": "Peanut",
+    "name": "Peanut",
+    "baseImg": "Peanut.jpg",
+    "birthday": "2013",
+    "gender": "Wallach",
+    "size": 1.30,
+    "race": "Connemara Pony",
+    "imgPaths": [
+      "Peanut/0.jpg",
+      "Peanut/1.jpg",
+      "Peanut/2.jpg",
+      "Peanut/3.jpg",
+      "Peanut/4.jpg",
+      "Peanut/5.jpg"
+    ],
+    "description": "Peanut ist der Herzensbrecher im Stall und der Jungspund in unserem Team. Er ist sehr neugierig und äußerst verspielt. Reiß- oder Klettverschlüsse zu öffnen, ist eine seiner leichtesten Übungen. Unter dem Sattel versucht er immer alles richtig zu machen und hat grade das Springen für sich entdeckt. Trotz seines jungen Alters trägt er schon die kleinsten Reitschüler geduldig und sicher durch die Halle. Mit fortgeschrittenen Reitern springt er schon einfache Parcours. Perspektivisch ist der hübsche Ponywallach auch für Reitabzeichen- und Turnierprüfung geeignet."
+  },
+  {
+    "id": "Lalelu",
+    "name": "Lalelu",
+    "baseImg": "Lalelu.jpg",
+    "birthday": "2001",
+    "gender": "Stute",
+    "size": 1.10,
+    "race": "Shetlandpony",
+    "imgPaths": [
+      "Lalelu/0.jpg",
+      "Lalelu/1.jpg",
+      "Lalelu/2.jpg",
+      "Lalelu/3.jpg",
+      "Lalelu/4.jpg",
+      "Lalelu/5.jpg"
+    ],
+    "description": "Unsere Lale ist die Kleinste im Stall und somit perfekt für unsere jüngsten Reitschüler geeignet. Sie ist unsere Ponyführ-Spezialistin und liebt es, verwöhnt zu werden. Ihre Leidenschaft sind große Schrittrunden im Gelände. Auch bei der Bodenarbeit zeigt sie sich äußerst neugierig und ist sehr menschenbezogen."
+  },
+  {
+    "id": "Brownie",
+    "name": "Brownie",
+    "baseImg": "Brownie.jpg",
+    "birthday": "2006",
+    "gender": "Stute",
+    "size": 1.20,
+    "race": "Islandmix-Pony",
+    "imgPaths": [
+      "Brownie/0.jpg",
+      "Brownie/1.jpg",
+      "Brownie/2.jpg",
+      "Brownie/3.jpg",
+      "Brownie/4.jpg",
+      "Brownie/5.jpg"
+    ],
+    "description": "Brownie ist eine süße und willensstarke Ponystute. Sie liebt es, geputzt und gestreichelt zu werden und eignet sich somit auch schon für unsere Jüngsten, um das Putzen und Satteln von der Pike auf zu erlernen. Unter dem Sattel versucht sie hin und wieder, ihren hübschen Kopf durchzusetzen und dann lernt man von Brownie vor allem eins: Durchsetzungsvermögen. Dennoch kann sie sowohl von unseren Anfängern als auch von den fortgeschritteneren Reitschülern problemlos geritten werden und ist eine tolle Lehrerin. Mit unseren kleinen bereits sattelfesten Reitern meistert Brownie sogar einzelne Sprünge und erste Parcours."
+  },
+  {
+    "id": "Nemo",
+    "name": "Nemo",
+    "baseImg": "Nemo.jpg",
+    "birthday": "2011",
+    "gender": "Wallach",
+    "size": 1.65,
+    "race": "Polnisches Warmblut",
+    "imgPaths": [
+      "Nemo/0.jpg",
+      "Nemo/1.jpg",
+      "Nemo/2.jpg",
+      "Nemo/3.jpg"
+    ],
+    "description": "Nemo ist unser Neuzugang und ein absolut verschmuster Wallach. Er hat viel Power und ist anfänglich etwas unsicher. Er lässt sich dabei aber immer gut händeln und hört dem Menschen an seiner Seite zu. Er ist am Sprung fundiert ausgebildet und liebt ausführliche Streicheleinheiten."
+  },
+  {
+    "id": "MiAmore",
+    "name": "MiAmore",
+    "baseImg": "MiAmore.jpg",
+    "birthday": "2010",
+    "gender": "Stute",
+    "size": 1.75,
+    "race": "Tschechisches Warmblut",
+    "imgPaths": [
+      "Miamore/0.jpg",
+      "Miamore/1.jpg",
+      "Miamore/2.jpg",
+      "Miamore/3.jpg",
+      "Miamore/4.jpg",
+      "Miamore/5.jpg"
+    ],
+    "description": "MiAmore, kurz Mia genannt, ist nicht nur die Größte in unserem Stall, sondern sowohl in der Dressur als auch am Sprung fundiert ausgebildet. Die hübsche und schwungvolle Stute ist bei ihrem Vorbesitzer bereits erfolgreich Reitabzeichen bis RA3 gelaufen. Besonderes Talent zeigt sie im Sprung. Sie verfügt außerdem über ein graziöses Exterieur und überdurchschnittliche Grundgangarten. Daher bereitet sie gerade unseren fortgeschrittenen Reitern sehr viel Freude. Aber auch für Sitzschulungen und Anfängerlongen ist sie eine beliebte Partnerin."
+  },
+  {
+    "id": "Magic",
+    "name": "Magic (A kind of Magic)",
+    "baseImg": "Magic.jpg",
+    "birthday": "2007",
+    "gender": "Wallach",
+    "size": 1.73,
+    "race": "Polnisches Warmblut",
+    "imgPaths": [
+      "Magic/0.jpg",
+      "Magic/1.jpg",
+      "Magic/2.jpg",
+      "Magic/3.jpg",
+      "Magic/4.jpg",
+      "Magic/5.jpg"
+    ],
+    "description": "Aufgrund seiner fundierten Ausbildung und gelassenen Art kann auch ein guter Reiter noch viel von ihm lernen. Der hübsche Wallach meistert Seitengänge, Galoppwechsel und vieles mehr zuverlässig. Er lässt einfach jeden Reiter gut aussehen. Auch im Gelände ist er ein treuer Partner. Im Herdenverband zeigt er sich souverän und selbstbewusst."
+  },
+  {
+    "id": "Granata",
+    "name": "Granata",
+    "baseImg": "Granata.jpg",
+    "birthday": "2006",
+    "gender": "Stute",
+    "size": 1.54,
+    "race": "Polnisches Warmblut",
+    "imgPaths": [
+      "Granata/0.jpg",
+      "Granata/1.jpg",
+      "Granata/2.jpg",
+      "Granata/3.jpg",
+      "Granata/4.jpg",
+      "Granata/5.jpg"
+    ],
+    "description": "Granata unterstützt ihre Teamkollegen ebenfalls im Lehrbetrieb. Die hübsche Stute ist sensibel und sehr aufmerksam und wird daher im Unterricht überwiegend für Longenstunden oder bei erfahrenen Reitern eingesetzt. Hin und wieder kann sie eine echte Diva sein, hat aber ein sehr großes Herz und ganz viel Go. Granata übernimmt im Gelände zuverlässig die Führung der Gruppe. Am Sprung zeigt sie sich ebenfalls talentiert."
+  },
+  {
+    "id": "Joey",
+    "name": "Joey",
+    "baseImg": "Joey.jpg",
+    "birthday": "2006",
+    "gender": "Wallach",
+    "size": 1.45,
+    "race": "UnbCob Pony",
+    "imgPaths": [
+      "Joey/0.jpg",
+      "Joey/1.jpg",
+      "Joey/2.jpg",
+      "Joey/3.jpg",
+      "Joey/4.jpg",
+      "Joey/5.jpg"
+    ],
+    "description": "Joey ist ein neugieriger und liebenswerter Ponywallach. Er liebt es, geputzt zu werden. Satteln und Trensen ist für ihn eher ein notweniges Muss, bei einem erfahrenen Pferdeliebhaber aber kein Problem. Unterm Sattel ist er lammfromm und sehr fein zu reiten. Auch für stundenlange Ausritte ist der charmante Wallach zu begeistern. Joey ist ein zuverlässiger Partner für kleine und große Reiter, der seine fortgeschrittenen Reiter mit Freude auch über Stangen und Hindernisse trägt."
+  },
+  {
+    "id": "Vyck",
+    "name": "Vyck",
+    "baseImg": "Vyck.jpg",
+    "birthday": "2007",
+    "gender": "Stute",
+    "size": 1.62,
+    "race": "Hannoverander",
+    "imgPaths": [
+      "Vyck/0.jpg",
+      "Vyck/1.jpg",
+      "Vyck/2.jpg",
+      "Vyck/3.jpg",
+      "Vyck/4.jpg",
+      "Vyck/5.jpg"
+    ],
+    "description": "Vyck ist zusammen mit Nemo vor Kurzem zu uns gekommen. Sie ist das private Pferd unser Reitlehrerin Claudia und wird den Schulbetrieb unter fortgeschrittenen Reitern unterstützen. Vyck ist unsere Dressurqueen. Sie ist fleißig und immer aufmerksam bei der Sache. Seitengänge und Galoppwechsel meistert Sie spielend. Auch die ersten Ausritte hat sie bei uns schon absolviert. Hierbei ist sie hin und wieder etwas unsicher, aber immer gut händelbar."
+  }
+]

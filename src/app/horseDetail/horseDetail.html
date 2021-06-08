@@ -1,0 +1,43 @@
+<div class="background-div background-rectory">
+    <div class="container-content">        
+        <h2 class="headline"><i>&bdquo;Euer Hufschlag - Unser Herzschlag&ldquo;</i></h2>
+        <div class="horseDetail-spacing"></div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">    
+                <ngb-carousel [showNavigationArrows]="true" 
+                    [showNavigationIndicators]="true"
+                    interval="12000"
+                    [keyboard]="true"
+                    [pauseOnHover]="true"
+                    [wrap]="true"
+                    [activeId]=""
+                    class="carousel-own-class"> 
+
+                    <ng-template ngbSlide *ngFor= "let imgPath of horseData.imgPaths">
+                        <div>
+                        <img class= "horseDetailImg" src="./assets/images/{{imgPath}}">
+                        </div>
+                        <div class="carousel-caption">
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                        </div>
+                    </ng-template>
+                </ngb-carousel>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 offset-1">
+                <ul class="characteristics-table">
+                    <h1 class="horseDetail-name"><i>{{horseData.name}}</i></h1>
+                    <!-- <li><em>Name: </em> {{horseData.name}}</li> -->
+                    <li><em>Geburtstag:</em> {{horseData.birthday}}</li>
+                    <li><em>Geschlecht:</em> {{horseData.gender}}</li>
+                    <li><em>Größe:</em> {{horseData.size}} m</li>
+                    <li><em>Rasse:</em> {{horseData.race}}</li>
+                </ul>
+                    
+                <div class="description">
+                    <span>{{horseData.description}}</span>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>

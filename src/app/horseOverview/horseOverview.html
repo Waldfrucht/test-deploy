@@ -1,0 +1,19 @@
+<div class="background-div background-horse">
+    <div class="container-content">
+
+        <div class="h2 headline">
+            <span>&bdquo;Der beste Reitlehrer ist unter dem Sattel&ldquo;</span>
+        </div>
+
+        <!-- Flex row of horses-->
+        <div class="d-flex flex-row flex-wrap justify-content-center row-horse-front">
+
+          <ng-template ngFor let-horse [ngForOf]="horses">
+            <div class="p-3 horse-img-container-top" [routerLink]="['/Pferde', horse.id]" routerLinkActive="active" >
+                <img class="horsebox" src="{{ basePath + horse.baseImg }}">
+                <div class="horse-link-text">{{horse.id}}</div>
+            </div>
+          </ng-template>
+      </div>
+  </div>
+</div>

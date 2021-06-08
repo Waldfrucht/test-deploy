@@ -1,0 +1,116 @@
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <base href="/">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class= "d-flex align-items-center flex-row">
+    <mat-toolbar class="toolbar">
+      <a class="toolbar-menu-item-link p-2" [routerLink]="['/index']" routerLinkActive="active">
+        <img class="logo" src="./assets/images/Logo/Logo_S.png">
+      </a>
+
+      <!-- Toolbar menu for smaller devices -->
+        <div class="dropdown d-flex d-xl-none ml-auto mr-auto">
+          <a class="toolbar-menu-item-link dropdown-toggle" type="button" data-toggle="dropdown" id="dropdownMenuLink" 
+          aria-haspopup="true" aria-expanded="false">Menü<span class="caret"></span> </a> 
+          <div class="dropdown-menu dropdown-menu-left toolbar-dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="toolbar-menu-dropdown-item-link" routerLink="{{SCHULBETRIEB_LINK}}" routerLinkActive="active">{{SCHULBETRIEB_TEXT}}</a> 
+              <div class="dropdown-divider"></div>
+              <a class="toolbar-menu-dropdown-item-link" routerLink="{{LONGE_SITZ_LINK}}" routerLinkActive="active">{{LONGE_SITZ_TEXT}}</a>
+              <div class="dropdown-divider"></div>
+              <a class="toolbar-menu-dropdown-item-link" routerLink="{{EINZEL_GRUPPE_LINK}}" routerLinkActive="active">{{EINZEL_GRUPPE_TEXT}}</a>
+              <div class="dropdown-divider"></div>
+              <a class="toolbar-menu-dropdown-item-link" routerLink="{{AUSRITT_LINK}}" routerLinkActive="active">{{AUSRITT_TEXT}}</a>
+              <div class="dropdown-divider"></div> 
+              <a class="toolbar-menu-dropdown-item-link" routerLink="{{PONY_FUEHREN_LINK}}" routerLinkActive="active">{{PONY_FUEHREN_TEXT}}</a>
+              <div class="dropdown-divider"></div>
+              <!-- <a class="toolbar-menu-dropdown-item-link" routerLink="{{TEAM_LINK}}" routerLinkActive="active">{{TEAM_TEXT}}</a>
+              <div class="dropdown-divider"></div> -->
+              <a class="toolbar-menu-dropdown-item-link" routerLink="{{PFERDE_LINK}}" routerLinkActive="active">{{PFERDE_TEXT}}</a>
+              <div class="dropdown-divider"></div>
+              <a class="toolbar-menu-dropdown-item-link" routerLink="{{HOF_LINK}}" routerLinkActive="active">{{HOF_TEXT}}</a>
+              <div class="dropdown-divider"></div>
+              <a class="toolbar-menu-dropdown-item-link" routerLink="{{KONTAKT_LINK}}" routerLinkActive="active">{{KONTAKT_TEXT}}</a>
+              <div class="dropdown-divider"></div>
+              <a class="toolbar-menu-dropdown-item-link" routerLink="{{GALERIE_LINK}}" routerLinkActive="active">{{GALERIE_TEXT}}</a>
+              <div class="dropdown-divider"></div>
+              <a class="toolbar-menu-dropdown-item-link" routerLink="{{ANFAHRT_LINK}}" routerLinkActive="active">{{ANFAHRT_TEXT}}</a>
+          </div>
+        </div>
+
+        <!-- Toolbar menu for larger sized devices -->
+        <div class="d-none d-xl-flex ml-auto mr-auto toolbar-link-container-large">
+          <div class ="toolbar-menu-item p-xl-2">
+            <div class="dropdown">
+              <a class="toolbar-menu-item-link dropdown-toggle" type="button" data-toggle="dropdown" id="dropdownMenuLink" 
+              aria-haspopup="true" aria-expanded="false">Lehrbetrieb <span class="caret"></span> </a> 
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="toolbar-menu-dropdown-item-link" routerLink="{{SCHULBETRIEB_LINK}}" routerLinkActive="active">{{SCHULBETRIEB_TEXT}}</a> 
+                  <div class="dropdown-divider"></div>
+                  <a class="toolbar-menu-dropdown-item-link" routerLink="{{LONGE_SITZ_LINK}}" routerLinkActive="active">{{LONGE_SITZ_TEXT}}</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="toolbar-menu-dropdown-item-link" routerLink="{{EINZEL_GRUPPE_LINK}}" routerLinkActive="active">{{EINZEL_GRUPPE_TEXT}}</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="toolbar-menu-dropdown-item-link" routerLink="{{AUSRITT_LINK}}" routerLinkActive="active">{{AUSRITT_TEXT}}</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="toolbar-menu-dropdown-item-link" routerLink="{{PONY_FUEHREN_LINK}}" routerLinkActive="active">{{PONY_FUEHREN_TEXT}}</a>
+              </div>
+            </div>
+          </div>
+          <!-- <li class ="toolbar-menu-item">
+            <a class="toolbar-menu-item-link" routerLink="{{TEAM_LINK}}" routerLinkActive="active">{{TEAM_TEXT}}</a>
+          </li> -->
+          <div class ="toolbar-menu-item p-xl-2">
+            <a class="toolbar-menu-item-link" routerLink="{{PFERDE_LINK}}" routerLinkActive="active">{{PFERDE_TEXT}}</a>
+          </div>
+          <div class ="toolbar-menu-item p-xl-2">
+            <a class="toolbar-menu-item-link" routerLink="{{HOF_LINK}}" routerLinkActive="active">{{HOF_TEXT}}</a>
+          </div>
+          <div class ="toolbar-menu-item p-xl-2">
+            <a class="toolbar-menu-item-link" routerLink="{{KONTAKT_LINK}}" routerLinkActive="active">{{KONTAKT_TEXT}}</a>
+          </div>
+          <div class ="toolbar-menu-item p-xl-2">
+            <a class="toolbar-menu-item-link" routerLink="{{GALERIE_LINK}}" routerLinkActive="active">{{GALERIE_TEXT}}</a>
+          </div>
+          <div class ="toolbar-menu-item p-xl-2">
+            <a class="toolbar-menu-item-link" routerLink="{{ANFAHRT_LINK}}" routerLinkActive="active">{{ANFAHRT_TEXT}}</a>
+          </div>
+        </div>
+      <!-- This fills the remaining space of the current row -->
+      <!-- <span class="example-fill-remaining-space"></span> -->
+
+
+      <!-- Add this when flyer is available -->
+      <!-- <div class ="toolbar-menu-item px-xl-2 px-lg-1 px-md-1 px-sm-4 px-2">
+        <a href="/src/assets/download/flyer.pdf" 
+        download="flyer.pdf">
+        Anmeldung
+        </a>
+      </div> -->
+
+      <div class ="toolbar-menu-item px-xl-2 px-lg-1 px-md-1 px-sm-2 px-2">
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/Reiten.Seligenporten/" title="Folgt uns auf Instagram" >
+          <img class="Instagram" src="./assets/images/Instagram/glyph.png">
+       </a>
+    </div>
+
+
+    </mat-toolbar>
+  </div>
+
+  <div class="general" >
+    <router-outlet>      
+    </router-outlet>    
+  </div>
+
+  <!-- Footer -->
+  <div class= "container-flex">
+    <div class="footer d-flex flex-row flex-wrap justify-content-center">   
+      <a class="footer-link p-5" routerLink="{{IMPRESSUM_LINK}}" routerLinkActive="active">{{IMPRESSUM_TEXT}}</a>
+      <a class="footer-link p-5" routerLink="{{DATENSCHUTZ_LINK}}" routerLinkActive="active">{{DATENSCHUTZ_TEXT}}</a>
+    </div>
+  </div>
+ </body>

@@ -1,0 +1,65 @@
+<div class="background-div background-gallery">
+    <div class="container-content">
+
+        <div class="h2 headline">
+            <span>Galerie</span>
+        </div>
+
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+            <div class="p-4 galery-img-container"
+                [routerLink]="['/Galerie', 'Ausritte']" routerLinkActive="active">
+                <img class="galery-titel-images" src="./assets/images/Galery/Ausritte/0.jpg">
+                <div class="horse-link-text">Ausritte</div>
+            </div>
+
+            <div class="p-4 galery-img-container"
+                [routerLink]="['/Galerie', 'Hof']" routerLinkActive="active">
+                <img class="galery-titel-images" src="./assets/images/Galery/Hof/0.jpg">
+                <div class="horse-link-text">Hof</div>
+            </div>
+
+            <div class="p-4 galery-img-container"
+                [routerLink]="['/Galerie', 'Koppelzeit']" routerLinkActive="active">
+                <img class="galery-titel-images" src="./assets/images/Galery/Koppelzeit/0.jpg">
+                <div class="horse-link-text">Koppelzeit</div>
+            </div>
+
+            <div class="p-4 galery-img-container"
+                [routerLink]="['/Galerie', 'Sommerprogramm']" routerLinkActive="active">
+                <img class="galery-titel-images" src="./assets/images/Galery/Sommerprogramm/0.jpg">
+                <div class="horse-link-text">Sommerprogramm</div>
+            </div>
+
+            <div class="p-4 galery-img-container"
+                [routerLink]="['/Galerie', 'Unterricht']" routerLinkActive="active">
+                <img class="galery-titel-images" src="./assets/images/Galery/Unterricht/0.jpg">
+                <div class="horse-link-text">Unterricht</div>
+            </div>
+
+            <!-- <div class="p-3 pt-4 galery-img-container"
+                [routerLink]="['/Pferde']" routerLinkActive="active">
+                <img class="galery-titel-images" src="./assets/images/Galery/Unterricht/0.jpg">
+                <div class="horse-link-text">Unsere Pferde</div>
+            </div> -->
+        </div>
+
+        <!-- <ngb-carousel [showNavigationArrows]="true" 
+                    [showNavigationIndicators]="true"
+                    interval="12000"
+                    [keyboard]="true"
+                    [pauseOnHover]="true"
+                    [wrap]="true"
+                    [activeId]=""
+                    class="carousel-own-class"> 
+            
+            <ng-template ngbSlide *ngFor= "let imgPath of galeryImgs">
+                <div>
+                <img class= "horseDetailImg" src="./assets/images/{{imgPath}}">
+                </div>
+                <div class="carousel-caption">
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+    </div>
+    </ng-template>
+    </ngb-carousel> -->
+</div>
+</div>

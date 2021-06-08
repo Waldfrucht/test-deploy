@@ -1,0 +1,565 @@
+.logo {
+  width: auto;
+  height: 3.5rem;
+}
+
+.Instagram {
+  height:2rem;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.general {
+  height: 88vh;
+}
+
+/* Background */
+
+.background-div {
+  height: 88vh;
+  overflow-x: hidden;
+  /* background-image: url("/assets/images/Background/Hintergrund_Kloster.jpg"); */
+  background-repeat: round;
+  background-size: fill;
+}
+
+.background-horse {
+  background-image: url("/assets/images/Background/Pferd/Hintergrund Pferd_0_0_0_0_heller.JPG");
+}
+
+.background-monastery {
+  background-image: url("/assets/images/Background/Kloster/Hintergrund Kloster_0_0_0_0.JPG");
+}
+
+.background-rectory {
+  background-image: url("/assets/images/Background/Pfarrhaus/Hintergrund Pfarrhaus_0_0_0_0.JPG");
+}
+
+.background-gallery {
+  background-image: url("/assets/images/Background/Pfarrhaus/Hintergrund Pfarrhaus_0_0_0_0.JPG");
+}
+
+
+/* Container for all sites */
+.container-content {
+  max-width: 100vw;
+  margin-right: 6vw;
+  margin-left: 6vw;
+}
+
+/* Spacer */
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  max-height: 7vh;
+  z-index: 100;
+  /* top: 0;
+  left: 0;
+  right: 0; */
+  display: flex;
+  align-items: center;
+  /* background-color: #aa7d39; */
+  /* background-color: rgba(95, 247, 108, 0.87); */
+  background-color: #f7e6cbf1;
+  /* background-color: #287233; */
+  color: black;
+  /* color: white; */
+  font-weight: 500;
+  text-align: center;
+  /* box-shadow: 0.0 0.0rem -1rem 0.0rem #333; */
+}
+
+.toolbar img {
+  object-fit: contain;
+  max-height: 6.5vh;
+}
+
+.horsebox {
+  background-position: center;
+  max-height:45vh;
+  object-fit: contain;
+}
+
+.horsebox:hover {
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  }
+
+.horse-img-container-top, .horse-img-container-bottom {
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+  .horse-img-container-bottom {
+    outline: none;
+    margin-bottom: 0rem;
+  }
+}
+
+.container-style {
+  padding-top:5rem;
+}
+
+.container {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.horse-link-text {
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.toolbar-menu-item {
+  float: left;
+  list-style: none;
+}
+
+/* .toolbar-menu-dropdown-item-link {
+  padding-top:0.5rem;
+  padding-bottom: 0.5rem;
+} */
+
+.toolbar-menu-item-link, .toolbar-menu-dropdown-item-link {
+  cursor: pointer;
+  color: black;
+  font-size: 1.3rem;
+  padding-right:0.5rem;
+  padding-left:0.5rem;
+}
+
+@media (max-width: 1201px) {
+  .toolbar-menu-item-link, .toolbar-menu-dropdown-item-link {
+    padding:0;
+  }
+}
+
+.toolbar-menu-size-down-view {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .toolbar-menu-size-full-view {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .toolbar-menu-size-down-view {
+    display: block;
+    margin-left: 1rem;
+  }
+
+  .toolbar-menu-item-link, .toolbar-menu-dropdown-item-link {
+    font-size: 1rem;
+  }
+  .toolbar-menu-item {
+    font-size: 1rem;
+  }
+}
+
+.dropdown-menu {
+  background-color: #f7e6cbf1;
+}
+
+.dropdown-divider{
+  border-color: black;
+}
+
+.toolbar-menu-dropdown-item-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  outline: none;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.toolbar-menu-dropdown-item-link:hover{
+  text-decoration: none;
+  background-color: lightgray;
+}
+
+.toolbar-menu-item-link:hover{
+  text-decoration: underline;
+}
+
+
+.horseDetailImg {
+  object-fit: contain;
+  max-width: 100vw;
+  max-height: 70vh;
+}
+
+
+/* Carousel */
+ngb-carousel {
+  max-width: 70rem;
+  max-height: 40rem;
+  margin: 50px auto;
+}
+
+ngb-carousel img {
+  width: 100%;
+  outline: none;
+}
+
+ngb-carousel {
+  width: inherit;
+  height: inherit;
+}
+
+ngb-carousel:focus {
+  outline: none;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.carousel-inner:focus ngb-carousel:focus {
+  outline: none;
+}
+
+.carousel-item {
+  display: flex !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1.2s ease-in-out, visibility 1.2s;
+  z-index: -1;
+}
+
+.carousel-item.active{
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+.carousel-control-prev {
+   z-index: 20;
+}
+
+.carousel-control-next {
+   z-index: 20;
+}
+
+.carousel-indicators{
+  z-index: 20;
+}
+
+/* Contact */
+.contact_text {
+  font-size: 1.08em;
+}
+
+.horse_contact_box {
+  width: 100%;
+  max-height: 28rem;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
+
+.contact_box {
+  max-width: 75%;
+}
+
+.row-contact {
+  height: auto;
+  margin-top: 2rem;
+}
+
+.contact_imgs_bottom {
+  min-width: 20rem;
+  max-width: 20%;
+  background-position: center;
+  object-fit: contain;
+}
+
+.contact_img_box {
+  min-width: 15rem;
+  max-width: 25%;
+}
+
+
+/* Footer */
+.footer {
+  z-index: 100;
+  box-shadow: 0.0 0.0rem 1rem 0.0rem #333;
+  text-align: center;
+  /* background-color: rgba(229, 204, 165, 0.733); */
+  background-color: #f7e6cb;
+
+  height: 5vh;
+  align-content: center;
+}
+
+footer a {
+  display: flex;
+}
+
+
+/* Farm */
+
+@media (max-width: 576px) {
+  /* CSS that should be displayed if width is equal to or less than 768px goes here */
+  .farm-imgs-spacing-on-xs {
+    padding-bottom: 1rem;
+  }
+}
+
+.farm-row-first {
+  margin-top: 3rem;
+}
+
+.farm_imgs_bottom {
+  max-width: 100%;
+  width: 100%;
+  background-position: center;
+  object-fit: contain;
+  /* margin-bottom: 0.5rem; */
+}
+
+.farm-text-div {
+  font-size: 1.5em;
+  background-color: #f7e6cba8;
+  min-height: 100%;
+  display: flex;
+  align-self: center;
+}
+
+.farm-col-imgs {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  max-width: 100%;
+}
+
+.farm-last-row {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1435px) {
+  .farm-last-row {
+    margin-bottom: 0rem;
+  }
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .farm-text-small{
+    margin-top: 1rem;
+  }
+  .farm-text-div {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 992px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .farm-text-div {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 768px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .farm-text-div {
+    font-size: 1.1em;
+  }
+}
+
+
+
+
+
+/* Horse Detail */
+
+.characteristics-table {
+  margin-top: 1rem;
+  font-size: x-large;
+}
+
+.description {
+  margin-top: 4rem;
+  position: absolute;
+  font-size: x-large;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+@media(max-width: 768px) {
+  .characteristics-table {
+    margin-top: 1rem;
+    font-size: large;;
+  }
+  .description {
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: large;
+  }
+}
+
+.horseDetail-spacing {
+  margin-top: 1rem;
+}
+
+.horseDetail-name {
+  margin-bottom: 1rem;
+  font-size: 2em;
+  color: green;
+}
+
+/* School */
+.spaceing-school-imgs {
+  margin-top: 1.5rem;
+}
+
+.school-imgs {
+  max-width: 100%;
+  width: 100%;
+  background-position: center;
+  object-fit: contain;
+  height: 24vh;
+}
+
+.school-row {
+  margin-top: 1rem;
+}
+
+.school-text {
+  font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .school-text {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+}
+
+/* Startseite */
+.headline {
+  text-align: center;
+  padding-top: 1rem;
+  color: #87c74c;
+  /* color: #98da5a; */
+}
+
+.index-text {
+  padding-top: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  /* background-color: burlywood; */
+  background-color: #f7e6cba8;
+}
+
+.index-img {
+  margin-top: 1rem;
+  /* padding-left: 0.5rem;
+  padding-right: 0.5rem; */
+  max-width: 100%;
+  width: 100%;
+  background-position: center;
+  object-fit: contain;
+  max-height: 30vh;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  /* CSS that should be displayed if width is equal to or less than 768px goes here */
+  .headline {
+    font-size: 1.3rem;
+  }
+
+  .index-text {
+    font-size: 1.0rem;
+  }
+
+  .index-img {
+    margin-top: 2rem;
+    max-width: 100%;
+    background-position: center;
+    object-fit: contain;
+  }
+}
+
+/* Footer */
+.footer-link {
+  cursor: pointer;
+  color: black;
+  font-size: 1.0rem;
+}
+
+
+/* Anfahrt */
+.arrival-text {
+  font-size:1.3rem;
+}
+/* Google-Maps */
+.google-maps-css {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .google-maps {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .arrival-text {
+    font-size:1.1rem;
+  }
+}
+
+/* Gallery */
+
+.galery-titel-images {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.galery-titel-images:hover {
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  }
+
+.galery-img-container {
+  outline: none;
+  max-width: 23.5vw;
+  min-width: 20rem;
+}
+

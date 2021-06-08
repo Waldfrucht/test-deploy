@@ -1,0 +1,21 @@
+<div class="background-div background-gallery">
+    <div class="container-content">
+
+        <div class="h2 headline">
+            <span>{{folderName}}</span>
+        </div>
+
+        <ngb-carousel [showNavigationArrows]="true" [showNavigationIndicators]="true" interval="12000" [keyboard]="true"
+            [pauseOnHover]="true" [wrap]="true" [activeId]="" class="carousel-own-class">
+
+            <ng-template ngbSlide *ngFor="let imgPath of galeryImgs">
+                <div>
+                    <img class="horseDetailImg" src="./assets/images/Galery/{{imgPath}}">
+                </div>
+                <div class="carousel-caption">
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+</div>
