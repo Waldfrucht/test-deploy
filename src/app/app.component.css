@@ -49,11 +49,11 @@ hr {
 }
 
 .background-rectory {
-  background-image: url("/assets/images/Background/Pfarrhaus/Hintergrund_Pfarrhaus_0_0_0_0.JPG");
+  background-image: url("/assets/images/Background/Pfarrhaus/Hintergrund_Pfarrhaus_0_0_0_0.jpg");
 }
 
 .background-gallery {
-  background-image: url("/assets/images/Background/Pfarrhaus/Hintergrund_Pfarrhaus_0_0_0_0.JPG");
+  background-image: url("/assets/images/Background/Pfarrhaus/Hintergrund_Pfarrhaus_0_0_0_0.jpg");
 }
 
 
@@ -563,3 +563,4 @@ footer a {
   min-width: 20rem;
 }
 
+html, body { height: 100% }
